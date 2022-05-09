@@ -85,12 +85,12 @@
 </footer>
 <!-- end footer -->
 <!-- Javascript files-->
-<script src="storage/js/jquery.min.js"></script>
-<script src="storage/js/popper.min.js"></script>
-<script src="storage/js/bootstrap.bundle.min.js"></script>
-<script src="storage/jquery-3.0.0.min.js"></script>
+<script src="js/jquery.min.js"></script>
+<script src="js/popper.min.js"></script>
+<script src="js/bootstrap.bundle.min.js"></script>
+<script src="js/jquery-3.0.0.min.js"></script>
 <!-- sidebar -->
-<script src="storage/js/jquery.mCustomScrollbar.concat.min.js"></script>
-<script src="storage/js/custom.js"></script>
+<script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
+<script src="js/custom.js"></script>
 </body>
 </html>
