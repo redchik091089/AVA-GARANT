@@ -46,7 +46,7 @@
                     <div class="full">
                         <div class="center-desk">
                             <div class="logo">
-                                <a href="index.html"><img src="storage/images/logo.jpg" alt="#" /></a>
+                                <a href="{{ url('/') }}"><img src="storage/images/logo.jpg" alt="#" /></a>
                             </div>
                         </div>
                     </div>
@@ -59,19 +59,19 @@
                         <div class="collapse navbar-collapse" id="navbarsExample04">
                             <ul class="navbar-nav mr-auto">
                                 <li class="nav-item active">
-                                    <a class="nav-link" href="index.html"> Home  </a>
+                                    <a class="nav-link" href="{{ url('/') }}"> Home  </a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="about.html">About</a>
+                                    <a class="nav-link" href="{{ url('about') }}">About</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="products.html">Products </a>
+                                    <a class="nav-link" href="{{ url('products') }}">Products </a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="blog.html">Blog</a>
+                                    <a class="nav-link" href="{{ url('blog') }}">Blog</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="contact.html">Contact</a>
+                                    <a class="nav-link" href="{{ url('contact') }}">Contact</a>
                                 </li>
                                 <li class="nav-item d_none">
                                     <a class="nav-link" href="#"><i class="fa fa-search" aria-hidden="true"></i></a>

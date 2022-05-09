@@ -29,7 +29,7 @@
                                         <div class="row">
                                             <div class="col-md-12">
                                                 <div class="test_box">
-                                                    <i><img src="images/tes1.png" alt="#"/></i>
+                                                    <i><img src="storage/images/tes1.png" alt="#"/></i>
                                                     <h4>jhone Du</h4>
                                                     <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters,It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters,It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters,</p>
                                                 </div>
@@ -44,7 +44,7 @@
                                         <div class="row">
                                             <div class="col-md-12">
                                                 <div class="test_box">
-                                                    <i><img src="images/tes1.png" alt="#"/></i>
+                                                    <i><img src="storage/images/tes1.png" alt="#"/></i>
                                                     <h4>jhone Du</h4>
                                                     <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters,It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters,It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters,</p>
                                                 </div>
@@ -59,7 +59,7 @@
                                         <div class="row">
                                             <div class="col-md-12">
                                                 <div class="test_box">
-                                                    <i><img src="images/tes1.png" alt="#"/></i>
+                                                    <i><img src="storage/images/tes1.png" alt="#"/></i>
                                                     <h4>jhone Du</h4>
                                                     <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters,It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters,It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters,</p>
                                                 </div>

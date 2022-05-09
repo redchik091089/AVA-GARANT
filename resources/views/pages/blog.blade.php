@@ -23,7 +23,7 @@
                         <div class="row">
                             <div class="col-md-6 padding_bottom">
                                 <div class="choose_box">
-                                    <i><img src="images/icon1.png" alt="#"/></i>
+                                    <i><img src="storage/images/icon1.png" alt="#"/></i>
                                     <div class="choose_text">
                                         <h3>Excellent Service</h3>
                                         <p>It is a long established fact that a reader will be distracted by the readable content of a</p>
@@ -32,7 +32,7 @@
                             </div>
                             <div class="col-md-6 padding_bottom">
                                 <div class="choose_box">
-                                    <i><img src="images/icon2.png" alt="#"/></i>
+                                    <i><img src="storage/images/icon2.png" alt="#"/></i>
                                     <div class="choose_text">
                                         <h3>Clean Working</h3>
                                         <p>It is a long established fact that a reader will be distracted by the readable content of a</p>
@@ -41,7 +41,7 @@
                             </div>
                             <div class="col-md-6 padding_bottom2">
                                 <div class="choose_box">
-                                    <i><img src="images/icon3.png" alt="#"/></i>
+                                    <i><img src="storage/images/icon3.png" alt="#"/></i>
                                     <div class="choose_text">
                                         <h3>Quality And Reliability</h3>
                                         <p>It is a long established fact that a reader will be distracted by the readable content of a</p>
@@ -50,7 +50,7 @@
                             </div>
                             <div class="col-md-6">
                                 <div class="choose_box">
-                                    <i><img src="images/icon4.png" alt="#"/></i>
+                                    <i><img src="storage/images/icon4.png" alt="#"/></i>
                                     <div class="choose_text">
                                         <h3>Expert Farmer</h3>
                                         <p>It is a long established fact that a reader will be distracted by the readable content of a</p>
@@ -63,7 +63,7 @@
                 </div>
                 <div class="col-xl-5 col-lg-5 col-md-12 col-sm-12">
                     <div class="choose_img">
-                        <figure><img src="images/food.jpg" alt="#"/></figure>
+                        <figure><img src="storage/images/food.jpg" alt="#"/></figure>
                     </div>
                 </div>
             </div>
