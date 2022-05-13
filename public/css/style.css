@@ -368,7 +368,7 @@ ul.btn li:last-child {
 .header {
      width: 100%;
      padding: 30px 30px;
-     border-bottom: #c6cad5 solid 12px;
+     border-bottom: #c6cad5 solid 15px;
      background-color: #13110e;
 }
 
@@ -390,11 +390,23 @@ ul.btn li:last-child {
      border-right: #c6cad5 solid 15px;
 }
 
+.index_img {
+    width: 355px;
+    position: absolute;
+    padding: 112px 99px;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 33px;
+    line-height: 20px;
+    text-align: center;
+    right: 50px;
+}
+
 
 /** banner section **/
 
 .banner_main {
-     background: url(../../storage/images/banner.jpg);
+     background: url(../../storage/images/banner2.jpg);
      background-repeat: no-repeat;
      min-height: 840px;
      background-size: 100% 100%;
@@ -429,7 +441,8 @@ ul.btn li:last-child {
 .text-bg a {
      font-size: 17px;
      background-color: transparent;
-     color: #fff;
+     color: #212529;
+    margin-top: 111px;
      font-weight: 600;
      padding: 11px 0px;
      width: 100%;

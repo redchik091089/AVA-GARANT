@@ -10,8 +10,8 @@
                 <div class="col-md-12 ">
                     <div class="text-bg">
                         <h1>AVA-GARANT</h1>
-                        <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it</p>
-                        <a href="#">Discover</a>
+{{--                        <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it</p>--}}
+                        <a href="#">БЕСПЛАТНЫЙ ЗАМЕР</a>
                     </div>
                 </div>
             </div>
@@ -24,17 +24,17 @@
             <div class="row">
                 <div class="col-md-4">
                     <div class="box_text">
-                        <figure><img src="storage/images/img1.jpg" alt="#"/></figure>
+                        <figure><a href="#"><div class="index_img">ПОТОЛКИ</div><img src="storage/images/natyaznie_potolki_index.jpg" width="350" height="245" alt="#"/></a></figure>
                     </div>
                 </div>
                 <div class="col-md-4">
                     <div class="box_text">
-                        <figure><img src="storage/images/img2.jpg" alt="#"/></figure>
+                        <figure><div class="index_img">ЖАЛЮЗИ</div><img src="storage/images/shtori_index.jpg" alt="#"/></figure>
                     </div>
                 </div>
                 <div class="col-md-4">
                     <div class="box_text">
-                        <figure><img src="storage/images/img3.jpg" alt="#"/></figure>
+                        <figure><div class="index_img">КОДИЦИОНЕРЫ</div><img src="storage/images/Tosot Lord Euro II T24H-SLEu2-I - T24H-SLEu2-O.jpg" alt="#"/></figure>
                     </div>
                 </div>
             </div>
@@ -47,12 +47,12 @@
             <div class="row d_flex">
                 <div class="col-md-5">
                     <div class="titlepage">
-                        <h2>World’s Hottest Destinations <br>for Vegans</h2>
+                        <h2>компания<br>AVA GARANT</h2>
                     </div>
                 </div>
                 <div class="col-md-7">
                     <div class="hottest_box">
-                        <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined </p>
+                        <p>Доверьте нашей компании! Профессиональная команда выполнит работы точно по желанию заказчика в соответствии со всеми технологическими нормативами. Мы готовы проработать состав работ и материалов в зависимости от вашего бюджета. Мы подскажем на чем лучше сэкономить, а на чем этого делать не следует. Вам не нужно опасаться, что экономия приведет к потере качества. Мы гибко оптимизируемся под ваш бюджет, но с сохранением гарантии качества. </p>
                     </div>
                 </div>
             </div>
@@ -67,8 +67,8 @@
             <div class="row">
                 <div class="col-md-8">
                     <div class="titlepage">
-                        <h2>Why Choose Us? </h2>
-                        <p>there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined  </p>
+                        <h2>Почему выбираете нас?</h2>
+                        <p>Мы готовы проработать состав работ и материалов в зависимости от вашего бюджета. Мы подскажем на чем лучше сэкономить, а на чем этого делать не следует. Вам не нужно опасаться, что экономия приведет к потере качества. </p>
                     </div>
                 </div>
             </div>
@@ -82,8 +82,8 @@
                                 <div class="choose_box">
                                     <i><img src="storage/images/icon1.png" alt="#"/></i>
                                     <div class="choose_text">
-                                        <h3>Excellent Service</h3>
-                                        <p>It is a long established fact that a reader will be distracted by the readable content of a</p>
+                                        <h3>Напрямую от производителя</h3>
+                                        <p>Цены выгоднее на 15%. Вам не нужно переплачивать за услуги посредников.</p>
                                     </div>
                                 </div>
                             </div>
@@ -91,17 +91,26 @@
                                 <div class="choose_box">
                                     <i><img src="storage/images/icon2.png" alt="#"/></i>
                                     <div class="choose_text">
-                                        <h3>Clean Working</h3>
-                                        <p>It is a long established fact that a reader will be distracted by the readable content of a</p>
+                                        <h3>Более 300 цветов</h3>
+                                        <p>В наличии большой выбор расцветки и материалов.</p>
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-md-6 padding_bottom2">
+                            <div class="col-md-6 padding_bottom">
                                 <div class="choose_box">
                                     <i><img src="storage/images/icon3.png" alt="#"/></i>
                                     <div class="choose_text">
-                                        <h3>Quality And Reliability</h3>
-                                        <p>It is a long established fact that a reader will be distracted by the readable content of a</p>
+                                        <h3>Монтаж от 1 часа</h3>
+                                        <p>Выезд в удобное для Вас время.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 padding_bottom">
+                                <div class="choose_box">
+                                    <i><img src="storage/images/icon4.png" alt="#"/></i>
+                                    <div class="choose_text">
+                                        <h3>Гарантии от 12 месяцев</h3>
+                                        <p>На всю продукцию и работу даем гарантию.</p>
                                     </div>
                                 </div>
                             </div>
@@ -109,8 +118,17 @@
                                 <div class="choose_box">
                                     <i><img src="storage/images/icon4.png" alt="#"/></i>
                                     <div class="choose_text">
-                                        <h3>Expert Farmer</h3>
-                                        <p>It is a long established fact that a reader will be distracted by the readable content of a</p>
+                                        <h3>Профессионализм</h3>
+                                        <p>Опыт работы более 12 лет</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="choose_box">
+                                    <i><img src="storage/images/icon4.png" alt="#"/></i>
+                                    <div class="choose_text">
+                                        <h3>Честная смета</h3>
+                                        <p>Фиксированная цена при замере</p>
                                     </div>
                                 </div>
                             </div>
@@ -119,7 +137,7 @@
                 </div>
                 <div class="col-xl-5 col-lg-5 col-md-12 col-sm-12">
                     <div class="choose_img">
-                        <figure><img src="storage/images/food.jpg" alt="#"/></figure>
+                        <figure><img src="storage/images/why_choose_us.jpg" alt="#"/></figure>
                     </div>
                 </div>
             </div>
@@ -127,7 +145,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-5">
-                    <a class="read_more" href="#">Read More</a>
+                    <a class="read_more" href="#">Читать больше</a>
                 </div>
             </div>
         </div>
@@ -140,7 +158,7 @@
             <div class="row">
                 <div class="col-md-6">
                     <div class="titlepage">
-                        <h2>Our Product</h2>
+                        <h2>Наши работы</h2>
                     </div>
                 </div>
             </div>
@@ -149,32 +167,32 @@
             <div class="row">
                 <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 padding_left0">
                     <div class="product_box">
-                        <figure><img src="storage/images/product1.jpg" alt="#"/></figure>
-                        <h3 class="black">vegetable</h3>
+                        <figure><img src="storage/images/work_6.jpg" alt="#"/></figure>
+{{--                        <h3 class="black">vegetable</h3>--}}
                     </div>
                 </div>
                 <div class="col-xl-3 col-lg-3 col-md-3 col-sm-12">
                     <div class="product_box">
-                        <figure><img src="storage/images/product2.jpg" alt="#"/></figure>
-                        <h3 >weat</h3>
+                        <figure><img src="storage/images/work_2.jpg" alt="#"/></figure>
+{{--                        <h3 >weat</h3>--}}
                     </div>
                 </div>
                 <div class="col-xl-3 col-lg-3 col-md-3 col-sm-12 padding_right0">
                     <div class="product_box">
-                        <figure><img src="storage/images/product3.jpg" alt="#"/></figure>
-                        <h3>fruit</h3>
+                        <figure><img src="storage/images/work_3.jpg" alt="#"/></figure>
+{{--                        <h3>fruit</h3>--}}
                     </div>
                 </div>
                 <div class="col-xl-7 col-lg-7 col-md-7 col-sm-12 padding_left0">
                     <div class="product_box">
-                        <figure><img src="storage/images/product4.jpg" alt="#"/></figure>
-                        <h3>sunflowere</h3>
+                        <figure><img src="storage/images/work_4.jpg" alt="#"/></figure>
+{{--                        <h3>sunflowere</h3>--}}
                     </div>
                 </div>
                 <div class="col-xl-5 col-lg-5 col-md-5 col-sm-12 padding_right0">
                     <div class="product_box">
-                        <figure><img src="storage/images/product5.jpg" alt="#"/></figure>
-                        <h3>Livestock</h3>
+                        <figure><img src="storage/images/work_5.jpg" alt="#"/></figure>
+{{--                        <h3>Livestock</h3>--}}
                     </div>
                 </div>
             </div>
@@ -187,7 +205,7 @@
             <div class="row">
                 <div class="col-md-12">
                     <div class="titlepage">
-                        <h2>People Says About Farm</h2>
+                        <h2>Отзывы наших клиентов</h2>
                     </div>
                 </div>
             </div>
@@ -207,8 +225,8 @@
                                             <div class="col-md-12">
                                                 <div class="test_box">
                                                     <i><img src="storage/images/tes1.png" alt="#"/></i>
-                                                    <h4>jhone Du</h4>
-                                                    <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters,It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters,It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters,</p>
+                                                    <h4>ОЛЕГ Галимурза</h4>
+                                                    <p>Ну это просто ШИКАРДОООООоооооос, я в просто в шоооке, супер круто. Молодцы вааааще ребята, вот это они БАЦАЮТ. Прооосттооо уллёёёт. Вот пришли и БааЦ потолок УУххххх. АГОооНь ваааще!!!!!! Валят рубята потолки)))) Надо брать!!! ДАЁШЬ ПОТОЛОК ЗА ЧАС!!! Ухххххххххххххххххххххх..... </p>
                                                 </div>
                                             </div>
                                         </div>
@@ -222,8 +240,8 @@
                                             <div class="col-md-12">
                                                 <div class="test_box">
                                                     <i><img src="storage/images/tes1.png" alt="#"/></i>
-                                                    <h4>jhone Du</h4>
-                                                    <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters,It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters,It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters,</p>
+                                                    <h4>Валя Квартиркина</h4>
+                                                    <p>Ну это просто ШИКАРДОООООоооооос, я в просто в шоооке, супер круто. Молодцы вааааще ребята, вот это они БАЦАЮТ. Прооосттооо уллёёёт. Вот пришли и БааЦ потолок УУххххх. АГОооНь ваааще!!!!!! Валят рубята потолки)))) Надо брать!!! ДАЁШЬ ПОТОЛОК ЗА ЧАС!!! Ухххххххххххххххххххххх..... </p>
                                                 </div>
                                             </div>
                                         </div>
@@ -237,8 +255,8 @@
                                             <div class="col-md-12">
                                                 <div class="test_box">
                                                     <i><img src="storage/images/tes1.png" alt="#"/></i>
-                                                    <h4>jhone Du</h4>
-                                                    <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters,It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters,It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters,</p>
+                                                    <h4>ОЛЕГ</h4>
+                                                    <p>Ну это просто ШИКАРДОООООоооооос, я в просто в шоооке, супер круто. Молодцы вааааще ребята, вот это они БАЦАЮТ. Прооосттооо уллёёёт. Вот пришли и БааЦ потолок УУххххх. АГОооНь ваааще!!!!!! Валят рубята потолки)))) Надо брать!!! ДАЁШЬ ПОТОЛОК ЗА ЧАС!!! Ухххххххххххххххххххххх..... </p>
                                                 </div>
                                             </div>
                                         </div>

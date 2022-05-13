@@ -46,7 +46,7 @@
                     <div class="full">
                         <div class="center-desk">
                             <div class="logo">
-                                <a href="{{ url('/') }}"><img src="storage/images/logo.jpg" alt="#" /></a>
+                                <a href="{{ url('/') }}"><img src="storage/images/logo2.png" width="80" height="80" style="position: absolute;top: -24px;" alt="#" /></a>
                             </div>
                         </div>
                     </div>
@@ -59,26 +59,26 @@
                         <div class="collapse navbar-collapse" id="navbarsExample04">
                             <ul class="navbar-nav mr-auto">
                                 <li class="nav-item active">
-                                    <a class="nav-link" href="{{ url('/') }}"> Home  </a>
+                                    <a class="nav-link" href="{{ url('/') }}"> Главная  </a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="{{ url('about') }}">About</a>
+                                    <a class="nav-link" href="{{ url('about') }}">О нас</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="{{ url('products') }}">Products </a>
+                                    <a class="nav-link" href="{{ url('products') }}">Продукты </a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="{{ url('blog') }}">Blog</a>
+                                    <a class="nav-link" href="{{ url('blog') }}">Блог</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="{{ url('contact') }}">Contact</a>
+                                    <a class="nav-link" href="{{ url('contact') }}">Контакты</a>
                                 </li>
                                 <li class="nav-item d_none">
                                     <a class="nav-link" href="#"><i class="fa fa-search" aria-hidden="true"></i></a>
                                 </li>
-                                <li class=" d_none get_btn">
-                                    <a  href="#">Get a quote</a>
-                                </li>
+{{--                                <li class=" d_none get_btn">--}}
+{{--                                    <a  href="#">Get a quote</a>--}}
+{{--                                </li>--}}
                             </ul>
                         </div>
                     </nav>

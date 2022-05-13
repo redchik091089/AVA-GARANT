@@ -4,7 +4,7 @@
             <div class="row">
                 <div class="col-md-4">
                     <div class="titlepage">
-                        <h2>Contact Us</h2>
+                        <h2>Контакты</h2>
                     </div>
                 </div>
                 <div class="col-md-12">
@@ -31,20 +31,20 @@
                                 <textarea class="contactus1" placeholder="Message" type="type" Message="Name">Message </textarea>
                             </div>
                             <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
-                                <button class="send_btn">Send</button>
+                                <button class="send_btn">Отправить</button>
                             </div>
                         </div>
                     </form>
                 </div>
                 <div class="col-md-3 border_right">
                     <ul class="location_icon">
-                        <li><a href="#"><i class="fa fa-map-marker" aria-hidden="true"></i></a> Locatins</li>
+                        <li><a href="#"><i class="fa fa-map-marker" aria-hidden="true"></i></a> Локация</li>
                         <li><a href="#"><i class="fa fa-volume-control-phone" aria-hidden="true"></i></a> +71 9087654321</li>
                         <li><a href="#"><i class="fa fa-envelope" aria-hidden="true"></i></a>demo@gmail.com</li>
                     </ul>
                 </div>
                 <div class="col-md-3 border_right">
-                    <h3>Useful Link</h3>
+                    <h3>Полезные ссылки</h3>
                     <ul class="link">
                         <li><a href="#">humour, or </a></li>
                         <li><a href="#">randomised words </a> </li>
@@ -54,20 +54,20 @@
                     </ul>
                 </div>
                 <div class="col-md-3 border_right">
-                    <h3>Menus</h3>
+                    <h3>Меню</h3>
                     <ul class="link">
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="about.html">About</a></li>
-                        <li><a href="products.html">Products</a></li>
-                        <li><a href="blog.html">Blog</a></li>
-                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="index.html">Главная</a></li>
+                        <li><a href="about.html">О нас</a></li>
+                        <li><a href="products.html">Продукты</a></li>
+                        <li><a href="blog.html">Блог</a></li>
+                        <li><a href="contact.html">Контакты</a></li>
                     </ul>
                 </div>
                 <div class="col-md-3">
                     <form class="bottom_form">
-                        <h3>Newsletter</h3>
+                        <h3>Новости</h3>
                         <input class="enter" placeholder="Enter your email" type="text" name="Enter your email">
-                        <button class="sub_btn">subscribe</button>
+                        <button class="sub_btn">подписаться</button>
                     </form>
                 </div>
             </div>
