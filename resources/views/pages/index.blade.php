@@ -145,7 +145,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-5">
-                    <a class="read_more" href="#">Читать больше</a>
+                    <a class="read_more" href="{{ url('about') }}">Читать больше</a>
                 </div>
             </div>
         </div>

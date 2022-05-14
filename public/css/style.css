@@ -318,7 +318,7 @@ ul.btn li:last-child {
 }
 
 .navigation.navbar-dark .navbar-nav .nav-link {
-     padding: 0px 25px;
+     padding: 0px 10px;
      text-transform: uppercase;
      color: #fff;
      font-size: 17px;
@@ -351,13 +351,13 @@ ul.btn li:last-child {
 
 .get_btn a {
      display: inline-block;
-     padding: 8px 39px;
-     color: #fff;
-     font-size: 16px;
+     padding: 8px 10px;
+    color: black;
+    font-size: 16px;
      background-color: #f4cb1e;
      text-transform: uppercase;
      margin-top: -10px;
-     margin-left: 30px;
+     margin-left: 35px;
 }
 
 .get_btn a:hover {
@@ -370,6 +370,46 @@ ul.btn li:last-child {
      padding: 30px 30px;
      border-bottom: #c6cad5 solid 15px;
      background-color: #13110e;
+}
+
+.topmenu > li > a.active,
+.submenu a:hover {color: #ddbe86;}
+.topmenu .fa,
+.submenu .fa {
+    margin-left: 5px;
+    color: inherit;
+}
+.submenu {
+    position: absolute;
+    z-index: 5;
+    min-width: 200px;
+    background: #f4cb1e;
+    border-top: 1px solid #CBCBCC;
+    border-left: 1px solid #CBCBCC;
+    border-right: 1px solid #CBCBCC;
+    visibility: hidden;
+    opacity: 0;
+    transform-origin: 0% 0%;
+    transform: rotateX(-90deg);
+    transition: .3s linear;
+}
+.submenu li {position: relative;}
+.submenu li a {
+    color: #282828;
+    padding: 10px 20px;
+    font-size: 17px;
+    border-bottom: 1px solid #CBCBCC;
+}
+.submenu .submenu {
+    position: absolute;
+    left: 100%;
+    top: -1px;
+    transition: .3s linear;
+}
+nav li:hover > .submenu {
+    transform: rotateX(0deg);
+    visibility: visible;
+    opacity: 1;
 }
 
 .logo {
