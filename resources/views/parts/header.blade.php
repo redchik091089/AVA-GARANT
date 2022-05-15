@@ -16,6 +16,9 @@
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <!-- style css -->
     <link rel="stylesheet" href="css/style.css">
+    @hasSection('css')
+          @yield('css')
+    @endif
     <!-- Responsive-->
     <link rel="stylesheet" href="css/responsive.css">
     <!-- fevicon -->
@@ -74,7 +77,7 @@
                                     <a class="nav-link" href="{{ url('/') }}">Главная</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="{{ url('about') }}">Каталог</a>
+                                    <a class="nav-link" href="{{ url('products') }}">Каталог</a>
                                 </li>
                                 <li class="nav-item">
                                     <a class="nav-link" href="#">Регионы</a>
@@ -142,7 +145,7 @@
                                     </ul>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="{{ url('products') }}">Цены</a>
+                                    <a class="nav-link" href="{{ url('prices') }}">Цены</a>
                                 </li>
                                 <li class="nav-item">
                                     <a class="nav-link" href="{{ url('blog') }}">Калькулятор</a>
