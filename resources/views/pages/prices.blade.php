@@ -420,21 +420,21 @@
                             <div class="brand-item">
                                 <div class="brand-box">
                                     <p class="bottom-remark">До 5.5 м</p>
-                                    <img src="/image/cache/data/msd_149x122-149x122.jpg" alt="MSD PREMIUM (Китай)">
+                                    <img src="storage/images/msd_1.jpg" alt="MSD PREMIUM (Китай)">
                                     <h4>MSD PREMIUM (Китай)</h4>
                                     <p>от <span>200</span> руб.</p>
                                 </div>
 
                                 <div class="brand-box">
                                     <p class="bottom-remark">До 5.5 м</p>
-                                    <img src="/image/cache/data/msd_149x122-149x122.jpg" alt="MSD EVOLUTION (Китай) ">
+                                    <img src="storage/images/msd_1.jpg" alt="MSD EVOLUTION (Китай) ">
                                     <h4>MSD EVOLUTION (Китай) </h4>
                                     <p>от <span>250</span> руб.</p>
                                 </div>
 
                                 <div class="brand-box">
                                     <p class="bottom-remark">До 3.5 м</p>
-                                    <img src="/image/cache/data/brand4-149x122.jpg" alt="Pongs (Германия)">
+                                    <img src="storage/images/brand3.jpg" alt="Pongs (Германия)">
                                     <h4>Pongs (Германия)</h4>
                                     <p>от <span>300</span> руб.</p>
                                 </div>
@@ -448,21 +448,21 @@
 
                                 <div class="brand-box">
                                     <p class="bottom-remark">до 4 м</p>
-                                    <img src="/image/cache/data/msd_149x122-149x122.jpg" alt="MSD Cold Stretch (без нагрева)">
+                                    <img src="storage/images/msd_1.jpg" alt="MSD Cold Stretch (без нагрева)">
                                     <h4>MSD Cold Stretch (без нагрева)</h4>
                                     <p>от <span> 300</span> руб.</p>
                                 </div>
 
                                 <div class="brand-box">
                                     <p class="bottom-remark">До 5.5 м</p>
-                                    <img src="/image/teqtum.jpg" alt="Teqtum KM2 (негорючий ПВХ)">
+                                    <img src="storage/images/teqtum5.jpg" alt="Teqtum KM2 (негорючий ПВХ)">
                                     <h4>Teqtum KM2 (негорючий ПВХ)</h4>
                                     <p>от <span>450</span> руб.</p>
                                 </div>
 
                                 <div class="brand-box">
                                     <p class="bottom-remark">До 5.5 м</p>
-                                    <img src="/image/logo-lumfer.png" alt="Lumfer (Германия)">
+                                    <img src="storage/images/logo-lumfer6.png" alt="Lumfer (Германия)">
                                     <h4>Lumfer (Германия)</h4>
                                     <p>от <span>490</span> руб.</p>
                                 </div>
@@ -480,21 +480,21 @@
 
                                 <div class="brand-box">
                                     <p class="bottom-remark">До 4.9 м</p>
-                                    <img src="/image/cache/data/brand2-149x122.jpg" alt="Descor (Германия)">
+                                    <img src="storage/images/brand7.jpg" alt="Descor (Германия)">
                                     <h4>Descor (Германия)</h4>
                                     <p>от <span>400</span> руб.</p>
                                 </div>
 
                                 <div class="brand-box">
                                     <p class="bottom-remark">До 4.9 м</p>
-                                    <img src="/image/cache/data/brand3-149x122.jpg" alt="Clipso (Франция)">
+                                    <img src="storage/images/brand8.jpg" alt="Clipso (Франция)">
                                     <h4>Clipso (Франция)</h4>
                                     <p>от <span>900</span> руб.</p>
                                 </div>
 
                                 <div class="brand-box">
                                     <p class="bottom-remark">До 4.9 м</p>
-                                    <img src="/image/cache/data/fotopechat-149x122.jpg" alt="Фотопечать на тканевых потолках">
+                                    <img src="storage/images/fotopechat9.jpg" alt="Фотопечать на тканевых потолках">
                                     <h4>Фотопечать на тканевых потолках</h4>
                                     <p>от <span>1500</span> руб.</p>
                                 </div>

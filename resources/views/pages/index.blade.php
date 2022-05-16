@@ -80,7 +80,7 @@
                         <div class="row">
                             <div class="col-md-6 padding_bottom">
                                 <div class="choose_box">
-                                    <i><img src="storage/images/icon1.png" alt="#"/></i>
+                                    <i style="width: 130px;"><img src="storage/images/Tilda_Icons_21re_dismantling.svg" alt="#"/></i>
                                     <div class="choose_text">
                                         <h3>Напрямую от производителя</h3>
                                         <p>Цены выгоднее на 15%. Вам не нужно переплачивать за услуги посредников.</p>
@@ -89,7 +89,7 @@
                             </div>
                             <div class="col-md-6 padding_bottom">
                                 <div class="choose_box">
-                                    <i><img src="storage/images/icon2.png" alt="#"/></i>
+                                    <i style="width: 95px;"><img src="storage/images/Tilda_Icons_21re_redecorating.svg" alt="#"/></i>
                                     <div class="choose_text">
                                         <h3>Более 300 цветов</h3>
                                         <p>В наличии большой выбор расцветки и материалов.</p>
@@ -98,7 +98,7 @@
                             </div>
                             <div class="col-md-6 padding_bottom">
                                 <div class="choose_box">
-                                    <i><img src="storage/images/icon3.png" alt="#"/></i>
+                                    <i style="width: 55px;"><img src="storage/images/Tilda_Icons_21re_hammer.svg" alt="#"/></i>
                                     <div class="choose_text">
                                         <h3>Монтаж от 1 часа</h3>
                                         <p>Выезд в удобное для Вас время.</p>
@@ -107,7 +107,7 @@
                             </div>
                             <div class="col-md-6 padding_bottom">
                                 <div class="choose_box">
-                                    <i><img src="storage/images/icon4.png" alt="#"/></i>
+                                    <i style="width: 77px;"><img src="storage/images/Tilda_Icons_21re_guarantee.svg" alt="#"/></i>
                                     <div class="choose_text">
                                         <h3>Гарантии от 12 месяцев</h3>
                                         <p>На всю продукцию и работу даем гарантию.</p>
@@ -116,7 +116,7 @@
                             </div>
                             <div class="col-md-6">
                                 <div class="choose_box">
-                                    <i><img src="storage/images/icon4.png" alt="#"/></i>
+                                    <i style="width: 55px;"><img src="storage/images/Tilda_Icons_21re_quality.svg" alt="#"/></i>
                                     <div class="choose_text">
                                         <h3>Профессионализм</h3>
                                         <p>Опыт работы более 12 лет</p>
@@ -125,7 +125,7 @@
                             </div>
                             <div class="col-md-6">
                                 <div class="choose_box">
-                                    <i><img src="storage/images/icon4.png" alt="#"/></i>
+                                    <i style="width: 60px;"><img src="storage/images/Tilda_Icons_21re_estimate.svg" alt="#"/></i>
                                     <div class="choose_text">
                                         <h3>Честная смета</h3>
                                         <p>Фиксированная цена при замере</p>
@@ -167,32 +167,27 @@
             <div class="row">
                 <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 padding_left0">
                     <div class="product_box">
-                        <figure><img src="storage/images/work_6.jpg" alt="#"/></figure>
-{{--                        <h3 class="black">vegetable</h3>--}}
+                        <figure><img src="storage/images/nasha_rabota_1.jpg" alt="#"/></figure>
                     </div>
                 </div>
                 <div class="col-xl-3 col-lg-3 col-md-3 col-sm-12">
                     <div class="product_box">
-                        <figure><img src="storage/images/work_2.jpg" alt="#"/></figure>
-{{--                        <h3 >weat</h3>--}}
+                        <figure><img src="storage/images/nasha_rabota_4.jpg" alt="#"/></figure>
                     </div>
                 </div>
                 <div class="col-xl-3 col-lg-3 col-md-3 col-sm-12 padding_right0">
                     <div class="product_box">
-                        <figure><img src="storage/images/work_3.jpg" alt="#"/></figure>
-{{--                        <h3>fruit</h3>--}}
+                        <figure><img src="storage/images/work_2.jpg" alt="#"/></figure>
                     </div>
                 </div>
                 <div class="col-xl-7 col-lg-7 col-md-7 col-sm-12 padding_left0">
                     <div class="product_box">
-                        <figure><img src="storage/images/work_4.jpg" alt="#"/></figure>
-{{--                        <h3>sunflowere</h3>--}}
+                        <figure><img src="storage/images/gor_pot.jpg" alt="#"/></figure>
                     </div>
                 </div>
                 <div class="col-xl-5 col-lg-5 col-md-5 col-sm-12 padding_right0">
                     <div class="product_box">
-                        <figure><img src="storage/images/work_5.jpg" alt="#"/></figure>
-{{--                        <h3>Livestock</h3>--}}
+                            <figure><img src="storage/images/work_5.jpg" alt="#"/></figure>
                     </div>
                 </div>
             </div>

@@ -72,6 +72,10 @@ summary,
 
 }
 
+.float {
+    float: left;
+}
+
 .carousel__item.ban1 .b_1 {
     display: none;
 }
@@ -1368,10 +1372,10 @@ p.logo-desc {
 
 .potolki-item a.order,
 a.all-btn {
-    border: 1px solid #6565b4;
+    border: 1px solid #f4cb1e;
     border-radius: 5px;
     padding: 10px 0;
-    color: #6565b4;
+    color: #f4cb1e;
     font-size: 20px;
     text-decoration: none;
     display: block;
@@ -6482,7 +6486,7 @@ p.work-time {
 }
 
 .potolki-item p.nrdr2 {
-    color: #6565b4;
+    color: #f4cb1e;
     display: inline;
     font-size: 20px;
     line-height: 44px;

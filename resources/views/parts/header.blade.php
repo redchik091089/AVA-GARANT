@@ -49,7 +49,7 @@
                     <div class="full">
                         <div class="center-desk">
                             <div class="logo">
-                                <a href="{{ url('/') }}"><img src="storage/images/logo2.png" width="80" height="80" style="position: absolute;top: -16px;" alt="#" /></a>
+                                <a href="{{ url('/') }}"><img src="storage/images/logo.png" width="80" height="80" style="position: absolute;top: -16px;" alt="#" /></a>
                             </div>
                         </div>
                     </div>

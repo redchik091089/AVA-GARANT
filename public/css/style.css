@@ -412,6 +412,12 @@ nav li:hover > .submenu {
     opacity: 1;
 }
 
+div li:hover > .submenu {
+    transform: rotateX(0deg);
+    visibility: visible;
+    opacity: 1;
+}
+
 .logo {
      position: relative;
      padding-left: 50%;
@@ -504,12 +510,12 @@ nav li:hover > .submenu {
 /** end banner section **/
 
 .titlepage {
-     text-align: center;
+     text-align: left;
      padding-bottom: 60px;
 }
 
 .titlepage h2 {
-     font-size: 50px;
+     font-size: 45px;
      color: #090807;
      line-height: 62px;
      font-weight: bold;
@@ -1006,18 +1012,6 @@ ul.link li a {
 
 ul.link li a:hover {
      color: #f4cb1e;
-}
-
-ul.link li a::after {
-     position: absolute;
-     content: "";
-     width: 12px;
-     height: 12px;
-     background-color: #fff;
-     border-radius: 20px;
-     left: 0;
-     margin-top: 6px;
-     margin-left: 15px;
 }
 
 .border_right {

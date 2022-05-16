@@ -22,6 +22,9 @@ Route::get('/about', function () {
 Route::get('/products', function () {
     return view('pages.products');
 });
+Route::get('/product', function () {
+    return view('pages.single_product');
+});
 Route::get('/prices', function () {
     return view('pages.prices');
 });
