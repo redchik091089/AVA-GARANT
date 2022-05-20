@@ -382,7 +382,7 @@ ul.btn li:last-child {
 .submenu {
     position: absolute;
     z-index: 5;
-    min-width: 200px;
+    min-width: 274px;
     background: #f4cb1e;
     border-top: 1px solid #CBCBCC;
     border-left: 1px solid #CBCBCC;

@@ -1,7 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-
+use App\Http\Controllers\IndexPageController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -13,9 +13,9 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('pages.index');
-});
+
+Route::get('/', [IndexPageController::class, 'get']);
+
 Route::get('/about', function () {
     return view('pages.about');
 });
@@ -34,3 +34,5 @@ Route::get('/blog', function () {
 Route::get('/contact', function () {
     return view('pages.contact');
 });
+
+

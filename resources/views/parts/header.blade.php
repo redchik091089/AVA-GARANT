@@ -78,6 +78,26 @@
                                 </li>
                                 <li class="nav-item">
                                     <a class="nav-link" href="{{ url('products') }}">Каталог</a>
+                                    <ul class="submenu">
+                                        @foreach($categories as $category)
+                                            <li><a href="{{ url('products') }}">{{ $category->cat_name }}<span class="fa fa-angle-down"></span></a>
+                                                <ul class="submenu">
+                                        @foreach($subcat as $sub)
+                                                @if($sub->category_id == $category->id)
+                                                        <li><a href="{{ url('products') }}">{{ $sub->subcat_name }}@if(!empty($sub->rulon_shtor))<span class="fa fa-angle-down"></span>@endif</a>
+                                                             @if(!empty($sub->rulon_shtor))
+                                                                <ul class="submenu">
+                                                                    <li><a href="{{ url('products') }}">{{ $sub->rulon_shtor}}</a></li>
+                                                                    <li><a href="{{ url('products') }}">{{ $sub->gor_galuzi}}</a></li>
+                                                                </ul>
+                                                             @endif
+                                                        </li>
+                                                @endif
+                                        @endforeach
+                                                </ul>
+                                            </li>
+                                    @endforeach
+                                    </ul>
                                 </li>
                                 <li class="nav-item">
                                     <a class="nav-link" href="#">Регионы</a>

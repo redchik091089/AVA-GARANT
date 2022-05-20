@@ -1,5 +1,9 @@
 @extends('layouts.master')
 
+    {{--@php--}}
+    {{--dump($categories);--}}
+    {{--die;--}}
+    {{--@endphp--}}
 
 @section('content')
 
