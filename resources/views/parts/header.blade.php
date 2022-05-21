@@ -80,7 +80,7 @@
                                     <a class="nav-link" href="{{ url('products') }}">Каталог</a>
                                     <ul class="submenu">
                                         @foreach($categories as $category)
-                                            <li><a href="{{ url('products') }}">{{ $category->cat_name }}<span class="fa fa-angle-down"></span></a>
+                                            <li><a href="{{ $category->url }}">{{ $category->cat_name }}<span class="fa fa-angle-down"></span></a>
                                                 <ul class="submenu">
                                         @foreach($subcat as $sub)
                                                 @if($sub->category_id == $category->id)

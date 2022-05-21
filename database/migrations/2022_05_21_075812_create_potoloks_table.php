@@ -13,12 +13,10 @@ return new class extends Migration
      */
     public function up()
     {
-        Schema::create('products', function (Blueprint $table) {
+        Schema::create('potoloks', function (Blueprint $table) {
             $table->id();
-            $table->unsignedBigInteger('subcategory_id');
-            $table->foreign('subcategory_id')->references('id')->on('subcategories')->onDelete('cascade');
-            $table->string('prod_name');
-            $table->string('brand')->nullable();
+            $table->text('title');
+            $table->longText('description');
             $table->string('image_1');
             $table->string('image_2')->nullable();
             $table->string('image_3')->nullable();
@@ -27,9 +25,6 @@ return new class extends Migration
             $table->string('image_6')->nullable();
             $table->string('image_7')->nullable();
             $table->string('image_8')->nullable();
-            $table->bigInteger('price')->nullable();
-            $table->boolean('open_system')->nullable();
-            $table->boolean('standart')->nullable();
             $table->timestamps();
         });
     }
@@ -41,6 +36,6 @@ return new class extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('products');
+        Schema::dropIfExists('potoloks');
     }
 };

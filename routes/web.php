@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\IndexPageController;
+use App\Http\Controllers\PotolokController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -15,6 +16,8 @@ use App\Http\Controllers\IndexPageController;
 
 
 Route::get('/', [IndexPageController::class, 'get']);
+
+Route::get('/potolki', [PotolokController::class, 'get']);
 
 Route::get('/about', function () {
     return view('pages.about');

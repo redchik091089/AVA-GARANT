@@ -9,7 +9,6 @@ use App\Models\Subcategory;
 
 class IndexPageController extends Controller
 {
-
         public function __construct()
         {
 
