@@ -13,16 +13,16 @@
     <div class="all">
         <noindex>
             <div class="section-content">
-
+                <h1>{{ $title }}</h1>
                 <div class="main">
                     <div class="potolki-item">
-                        @foreach($shtori as $shtora)
-                        <div class="col-lg-4 col-md-4 col-sm-4 float">
-                            <a href="/single/{{ $shtora->id }}" rel="nofollow"><img src="{{ $shtora->image_1 }}" alt=""></a>
-                            <h6><a href="/single/{{ $shtora->id }}">{{ $shtora->prod_name }}</a></h6>
-                            <p class="nrdr2"><span>{{ $shtora->price }}</span> руб.</p>
-                            {{--                        <a href="/primery/dvuxurovnevye-potolki-s-podsvetkoj/" rel="nofollow" class="order nrdr">Заказать</a>--}}
-                        </div>
+                        @foreach($condizionery as $condizioner)
+                            <div class="col-lg-4 col-md-4 col-sm-4 float">
+                                <a href="/single/{{ $condizioner->id }}" rel="nofollow"><img src="{{ $condizioner->image_1 }}" alt=""></a>
+                                <h6><a href="/single/{{ $condizioner->id }}">{{ $condizioner->prod_name }}</a></h6>
+                                <p class="nrdr2"><span>{{ $condizioner->price }}</span> руб.</p>
+                                {{--                        <a href="/primery/dvuxurovnevye-potolki-s-podsvetkoj/" rel="nofollow" class="order nrdr">Заказать</a>--}}
+                            </div>
                         @endforeach
                     </div>
                 </div>

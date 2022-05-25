@@ -3,6 +3,8 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\IndexPageController;
 use App\Http\Controllers\PotolokController;
+use App\Http\Controllers\ProductController;
+use App\Http\Controllers\SubcategoryController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -17,14 +19,24 @@ use App\Http\Controllers\PotolokController;
 
 Route::get('/', [IndexPageController::class, 'get']);
 
-Route::get('/potolki', [PotolokController::class, 'get']);
+Route::get('/products', [ProductController::class, 'getAll']);
+
+Route::get('/potolki/{id}', [ProductController::class, 'potolki']);
+
+Route::get('/shtori/{id}', [ProductController::class, 'shtori']);
+
+Route::get('/condizionery/{id}', [ProductController::class, 'condizionery']);
+
+Route::get('/svetilniki/{id}', [ProductController::class, 'svetilniki']);
+
+Route::get('/subcategory/{id}', [SubcategoryController::class, 'getSubProds']);
+
+Route::get('/subcategory/{id}/{type}', [SubcategoryController::class, 'getSubProdByType']);
 
 Route::get('/about', function () {
     return view('pages.about');
 });
-Route::get('/products', function () {
-    return view('pages.products');
-});
+
 Route::get('/product', function () {
     return view('pages.single_product');
 });

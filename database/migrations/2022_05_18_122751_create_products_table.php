@@ -18,6 +18,7 @@ return new class extends Migration
             $table->unsignedBigInteger('subcategory_id');
             $table->foreign('subcategory_id')->references('id')->on('subcategories')->onDelete('cascade');
             $table->string('prod_name');
+            $table->longText('description')->nullable();
             $table->string('brand')->nullable();
             $table->string('image_1');
             $table->string('image_2')->nullable();

@@ -6,7 +6,7 @@
     <div class="container">
         @foreach($potolki as $potolok)
         <div class="text">
-            <h1>{{ $potolok->title }}</h1>
+            <h1>{{ $potolok->prod_name }}</h1>
             <p>{{ $potolok->description }}</p>
         </div>
         <div class="img_pot">

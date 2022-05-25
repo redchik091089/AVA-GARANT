@@ -16,33 +16,9 @@
                 При выборе натяжного потолка важно знать, что влияет на его цену и как можно сэкономить. Компания «Стар Потолок» изготавливает и устанавливает натяжные потолки в Москве и области. Лучший способ сэкономить при заказе натяжного потолка — оформить заявку на установку сразу в нескольких помещениях. Такое решение позволит сократить расходы на 15–30% по сравнению с обустройством всех комнат в квартире или в доме по отдельности.</p>
 
             <div style="margin-bottom: 0cm; text-align: justify;">
-                &nbsp;</div>
-{{--            <div class="mainico_wrapper">--}}
-{{--                <div class="mainico_box">--}}
-{{--                    <div class="mainico_ico">--}}
-{{--                        <img alt="" class="lazy" src="/image/mainico/mainico6.png" /></div>--}}
-{{--                    <div class="mainico_text">--}}
-{{--                        Быстрый монтаж и современное оборудование</div>--}}
-{{--                </div>--}}
-{{--                <div class="mainico_box">--}}
-{{--                    <div class="mainico_ico">--}}
-{{--                        <img alt="" class="lazy" src="/image/mainico/mainico4.png" /></div>--}}
-{{--                    <div class="mainico_text">--}}
-{{--                        Профессиональная установка и гарантия на монтаж</div>--}}
-{{--                </div>--}}
-{{--                <div class="mainico_box">--}}
-{{--                    <div class="mainico_ico">--}}
-{{--                        <img alt="" class="lazy" src="/image/mainico/mainico5.png" /></div>--}}
-{{--                    <div class="mainico_text">--}}
-{{--                        В штате профильные мастера с опытом от 12 лет</div>--}}
-{{--                </div>--}}
-{{--                <div class="mainico_box">--}}
-{{--                    <div class="mainico_ico">--}}
-{{--                        <img alt="" class="lazy" src="/image/mainico/mainico8.png" /></div>--}}
-{{--                    <div class="mainico_text">--}}
-{{--                        Сертифицированные полотна премиум-класса популярных брендов</div>--}}
-{{--                </div>--}}
-{{--            </div>--}}
+                &nbsp;
+            </div>
+
             </p>
 
 

@@ -1,24 +1,34 @@
 @extends('layouts.master')
 
+@section('css')
+
+    <link rel="stylesheet" href="/css/styleprices.css">
+
+@endsection
+
 
 @section('content')
 
-    <div class="container">
-        @foreach($potolki as $potolok)
-        <div class="text">
-            <h1>{{ $potolok->prod_name }}</h1>
-            <p>{{ $potolok->description }}</p>
-        </div>
-        <div class="img_pot">
-            <img src="{{ $potolok->image_1 }}" alt="#"/>
-        </div>
-        <div class="img_pot">
-            <img src="{{ $potolok->image_2 }}" alt="#"/>
-        </div>
-        <div class="img_pot">
-            <img src="{{ $potolok->image_3 }}" alt="#"/>
-        </div>
-        @endforeach
+
+    <div class="all">
+        <noindex>
+            <div class="section-content">
+                <h1>{{ $title }}</h1>
+                <div class="main">
+                    <div class="potolki-item">
+                        @foreach($shtori as $shtora)
+                            <div class="col-lg-4 col-md-4 col-sm-4 float">
+                                <a href="/single/{{ $shtora->id }}" rel="nofollow"><img src="{{ $shtora->image_1 }}" alt=""></a>
+                                <h6><a href="/single/{{ $shtora->id }}">{{ $shtora->prod_name }}</a></h6>
+                                <p class="nrdr2"><span>{{ $shtora->price }}</span> руб.</p>
+                                {{--                        <a href="/primery/dvuxurovnevye-potolki-s-podsvetkoj/" rel="nofollow" class="order nrdr">Заказать</a>--}}
+                            </div>
+                        @endforeach
+                    </div>
+                </div>
+
+            </div>
+        </noindex>
     </div>
 
 

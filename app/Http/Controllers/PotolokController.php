@@ -12,8 +12,4 @@ class PotolokController extends Controller
 
         }
 
-    public function get()
-    {
-        return view('pages.potolki', ['potolki' => Potolok::all()]);
-    }
 }

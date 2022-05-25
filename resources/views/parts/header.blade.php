@@ -13,18 +13,18 @@
     <meta name="description" content="">
     <meta name="author" content="">
     <!-- bootstrap css -->
-    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
     <!-- style css -->
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="/css/style.css">
     @hasSection('css')
           @yield('css')
     @endif
     <!-- Responsive-->
-    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="/css/responsive.css">
     <!-- fevicon -->
     <link rel="icon" href="images/fevicon.png" type="image/gif" />
     <!-- Scrollbar Custom CSS -->
-    <link rel="stylesheet" href="css/jquery.mCustomScrollbar.min.css">
+    <link rel="stylesheet" href="/css/jquery.mCustomScrollbar.min.css">
     <!-- Tweaks for older IEs-->
     <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css" media="screen">
@@ -36,7 +36,7 @@
 <body class="main-layout">
 <!-- loader  -->
 <div class="loader_bg">
-    <div class="loader"><img src="storage/images/loading.gif" alt="#" /></div>
+    <div class="loader"><img src="/storage/images/loading.gif" alt="#" /></div>
 </div>
 <!-- end loader -->
 <!-- header -->
@@ -49,7 +49,7 @@
                     <div class="full">
                         <div class="center-desk">
                             <div class="logo">
-                                <a href="{{ url('/') }}"><img src="storage/images/logo.png" width="80" height="80" style="position: absolute;top: -16px;" alt="#" /></a>
+                                <a href="{{ url('/') }}"><img src="/storage/images/logo.png" width="80" height="80" style="position: absolute;top: -16px;" alt="#" /></a>
                             </div>
                         </div>
                     </div>
@@ -80,15 +80,15 @@
                                     <a class="nav-link" href="{{ url('products') }}">Каталог</a>
                                     <ul class="submenu">
                                         @foreach($categories as $category)
-                                            <li><a href="{{ $category->url }}">{{ $category->cat_name }}<span class="fa fa-angle-down"></span></a>
+                                            <li><a href="{{ $category->url . '/' . $category->id}}">{{ $category->cat_name }}<span class="fa fa-angle-down"></span></a>
                                                 <ul class="submenu">
                                         @foreach($subcat as $sub)
                                                 @if($sub->category_id == $category->id)
-                                                        <li><a href="{{ url('products') }}">{{ $sub->subcat_name }}@if(!empty($sub->rulon_shtor))<span class="fa fa-angle-down"></span>@endif</a>
+                                                        <li><a href="/subcategory/{{ $sub->id }}">{{ $sub->subcat_name }}@if(!empty($sub->rulon_shtor))<span class="fa fa-angle-down"></span>@endif</a>
                                                              @if(!empty($sub->rulon_shtor))
                                                                 <ul class="submenu">
-                                                                    <li><a href="{{ url('products') }}">{{ $sub->rulon_shtor}}</a></li>
-                                                                    <li><a href="{{ url('products') }}">{{ $sub->gor_galuzi}}</a></li>
+                                                                    <li><a href="/subcategory/{{ $sub->id }}/system_rulon">{{ $sub->rulon_shtor}}</a></li>
+                                                                    <li><a href="/subcategory/{{ $sub->id }}/system_gor">{{ $sub->gor_galuzi}}</a></li>
                                                                 </ul>
                                                              @endif
                                                         </li>
@@ -174,7 +174,7 @@
                                     <a class="nav-link" href="{{ url('contact') }}">Контакты</a>
                                 </li>
                                 <li class="nav-item d_none">
-                                    <a class="nav-link" href="https://vk.com/ava.garant"><img src="storage/images/vk-circled.png" width="30" style="position: absolute;top: 10px;" alt="#" /></a>
+                                    <a class="nav-link" href="https://vk.com/ava.garant"><img src="/storage/images/vk-circled.png" width="30" style="position: absolute;top: 10px;" alt="#" /></a>
                                 </li>
                                 <li class=" d_none get_btn">
                                     <a  href="#">Заказать звонок</a>
