@@ -10,8 +10,10 @@
             <div class="row">
                 <div class="col-md-8">
                     <div class="titlepage">
-                        <h2>Our Blog</h2t
-                        <p>there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined  </p>
+
+                        <h2>Our Blog</h2>
+
+                            <p>there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined  </p>
                     </div>
                 </div>
             </div>

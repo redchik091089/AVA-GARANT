@@ -51,6 +51,11 @@
             @endisset
 
         @endforeach
+
+    </div>
+
+    <div class="container">
+        {{ $potolki->links('pagination.default') }}
     </div>
 
 

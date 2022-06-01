@@ -1,4 +1,30 @@
 <footer id="contact">
+    <!-- А это код формы в «обёртке» -->
+
+    <div id="magnific-modal" class="white-popup-block mfp-hide clearfix">
+
+        <div class="mfpcontentBorder">
+
+            <a class="popup-modal-dismiss" href="#"><i class="fa fa-times" aria-hidden="true"></i></a>
+
+            <form id="form">
+                @csrf
+
+                <p class="title">Оставьте ваш номер<br> и мы перезвоню вам</p>
+
+                <input type="text" class="putName" name="name" placeholder="Ваше имя" required>
+
+                <input type="tel" class="putPhone" name="phone" placeholder="Ваш телефон" required>
+
+                {{--                                    <input type="datetime-local" class="putNumber" name="date" value="2017-12-09">--}}
+
+                <input type="submit" name="submit" class="btn" value="ЗАКАЗАТЬ ЗВОНОК">
+
+                <input type="hidden" name="formData" value="Заявка с сайта">
+
+            </form>
+        </div>
+    </div>
     <div class="footer">
         <div class="container">
             <div class="row">
@@ -109,8 +135,8 @@
                         <li>
                             <p style="color: white; text-align: left">Мы готовы проработать состав работ и материалов в зависимости от вашего бюджета. Мы подскажем на чем лучше сэкономить, а на чем этого делать не следует. Вам не нужно опасаться, что экономия приведет к потере качества.</p>
                         </li>
-                        <li class="d_none get_btn">
-                            <a  href="#" style="margin-top: 5px;margin-left: -52px;padding: 8px 27px;">Заказать звонок</a>
+                        <li style="width:300px; padding-top: 22px; padding-right: 8px">
+                            <a class="popup-modal button" href="#form">Обратный звонок</a>
                         </li>
                     </ul>
 
@@ -134,6 +160,43 @@
 <script src="/js/popper.min.js"></script>
 <script src="/js/bootstrap.bundle.min.js"></script>
 <script src="/js/jquery-3.0.0.min.js"></script>
+<script src="/js/jquery.magnific-popup.min.js"></script>
+<script src="/js/maskedinput.min.js"></script>
+<script>
+    $('input[name="phone"]').mask("+7 (999) 999-99-99");
+
+    $(function () {
+        $('.popup-modal').magnificPopup({
+            type: 'inline',
+            preloader: false,
+            focus: '#username',
+            modal: false,
+            showCloseBtn: true
+        });
+        $(document).on('click', '.popup-modal-dismiss', function (e) {
+            e.preventDefault();
+            $.magnificPopup.close();
+        });
+    });
+
+    //E-mail Ajax Send
+
+    $("#form").submit(function() { //Change
+        var th = $(this);
+        $.ajax({
+            type: "POST",
+            url: "/recall", //Change
+            data: th.serialize()
+        }).done(function(data) {
+            console.log(data);
+            alert("Спасибо за обращение! Ждите звонка ближайшее время.");
+            location.reload();
+        });
+        return false;
+    });
+
+
+</script>
 <!-- sidebar -->
 <script src="/js/jquery.mCustomScrollbar.concat.min.js"></script>
 @hasSection('tag_js')

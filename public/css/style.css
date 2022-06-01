@@ -521,8 +521,8 @@ div li:hover > .submenu {
      max-width: 230px;
      text-align: center;
      display: inline-block;
-     border-radius: 30px;
-     border: #f4cb1e solid 4px;
+     /*border-radius: 30px;*/
+     /*border: #f4cb1e solid 4px;*/
      transition: ease-in all 0.5s;
 }
 

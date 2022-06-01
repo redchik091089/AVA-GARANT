@@ -14,6 +14,8 @@
     <meta name="author" content="">
     <!-- bootstrap css -->
     <link rel="stylesheet" href="/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/css/magnific-popup.css">
+    <link rel="stylesheet" href="/css/popup-style.css">
     <!-- style css -->
     <link rel="stylesheet" href="/css/style.css">
     @hasSection('css')
@@ -176,8 +178,8 @@
                                 <li class="nav-item d_none">
                                     <a class="nav-link" href="https://vk.com/ava.garant"><img src="/storage/images/vk-circled.png" width="30" style="position: absolute;top: 10px;" alt="#" /></a>
                                 </li>
-                                <li class=" d_none get_btn">
-                                    <a  href="#">Заказать звонок</a>
+                                <li style="width: 300px">
+                                    <a class="popup-modal button" href="#form">Обратный звонок</a>
                                 </li>
                             </ul>
                         </div>

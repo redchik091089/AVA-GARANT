@@ -19,9 +19,11 @@ use App\Http\Controllers\SubcategoryController;
 
 Route::get('/', [IndexPageController::class, 'get']);
 
+Route::match(['get', 'post'],'/recall', [IndexPageController::class, 'recall']);
+
 Route::get('/products', [ProductController::class, 'getAll']);
 
-Route::get('/potolki/{id}', [ProductController::class, 'potolki']);
+Route::get('/potolki/{id}', [PotolokController::class, 'potolki']);
 
 Route::get('/shtori/{id}', [ProductController::class, 'shtori']);
 

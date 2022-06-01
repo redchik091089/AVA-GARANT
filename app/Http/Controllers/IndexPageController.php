@@ -3,9 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-use App\Http\Controllers\CategoryController;
-use App\Models\Category;
-use App\Models\Subcategory;
+use Illuminate\Support\Facades\Mail;
 
 class IndexPageController extends Controller
 {
@@ -17,5 +15,18 @@ class IndexPageController extends Controller
     public function get()
     {
         return view('pages.index');
+    }
+
+    public function recall(Request $request)
+    {
+        $data = array('name' => $request->name, 'phone' => $request->phone);
+
+        Mail::send('emails.mail', $data, function ($message) {
+            $message->to('redchik091089@yandex.ru', 'To Ava-garant')->subject('Заказ звонка с сайта ava-garant.ru');
+            $message->from('redchik091089@gmail.com', 'Ava-garant');
+        });
+
+        return 'Success send';
+
     }
 }

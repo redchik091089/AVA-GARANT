@@ -11,7 +11,7 @@
                 <div class="col-md-12 ">
                     <div class="text-bg">
                         <h1>AVA-GARANT</h1>
-                        <a href="#">БЕСПЛАТНЫЙ ЗАМЕР</a>
+                        <a class="popup-modal button" href="#form">Бесплатный замер</a>
                     </div>
                 </div>
             </div>

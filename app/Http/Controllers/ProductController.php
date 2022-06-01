@@ -8,37 +8,20 @@ use App\Models\Subcategory;
 
 class ProductController extends Controller
 {
-    protected $collection = [];
+    protected $id_collection = [];
 
     public function getAll()
     {
         return view('pages.products', ['products' => Product::all(), 'title' => 'Каталог']);
     }
 
-    public function potolki($id)
-    {
-        $subcategories = Subcategory::where('category_id', $id)->get();
-        foreach ($subcategories as $item) {
-            $products = Product::where('subcategory_id', $item->id)->get();
-            foreach ($products as $product) {
-                $this->collection[] = $product;
-            }
-        }
-        $potolki = collect($this->collection);
-
-        return view('pages.potolki', ['potolki' => $potolki]);
-
-    }
     public function shtori($id)
     {
         $subcategories = Subcategory::where('category_id', $id)->get();
         foreach ($subcategories as $item) {
-            $products = Product::where('subcategory_id', $item->id)->get();
-            foreach ($products as $product) {
-                $this->collection[] = $product;
-            }
+            $this->id_collection[] = $item->id;
         }
-        $shtori = collect($this->collection);
+        $shtori = Product::whereIn('subcategory_id', $this->id_collection)->get();
 
         return view('pages.shtori', ['shtori' => $shtori, 'title' => 'Рулонные шторы']);
     }
@@ -47,12 +30,9 @@ class ProductController extends Controller
     {
         $subcategories = Subcategory::where('category_id', $id)->get();
         foreach ($subcategories as $item) {
-            $products = Product::where('subcategory_id', $item->id)->get();
-            foreach ($products as $product) {
-                $this->collection[] = $product;
-            }
+            $this->id_collection[] = $item->id;
         }
-        $condizionery = collect($this->collection);
+        $condizionery = Product::whereIn('subcategory_id', $this->id_collection)->get();
 
         return view('pages.condizionery', ['condizionery' => $condizionery, 'title' => 'Кондиционеры']);
     }
@@ -61,12 +41,9 @@ class ProductController extends Controller
     {
         $subcategories = Subcategory::where('category_id', $id)->get();
         foreach ($subcategories as $item) {
-            $products = Product::where('subcategory_id', $item->id)->get();
-            foreach ($products as $product) {
-                $this->collection[] = $product;
-            }
+            $this->id_collection[] = $item->id;
         }
-        $svetilniki = collect($this->collection);
+        $svetilniki = Product::whereIn('subcategory_id', $this->id_collection)->get();
 
         return view('pages.svetilniki', ['svetilniki' => $svetilniki, 'title' => 'Светильники']);
     }
