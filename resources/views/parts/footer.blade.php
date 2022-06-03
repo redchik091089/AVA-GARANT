@@ -10,7 +10,7 @@
             <form id="form">
                 @csrf
 
-                <p class="title">Оставьте ваш номер<br> и мы перезвоню вам</p>
+                <p class="title">Оставьте ваш номер<br> и мы перезвоним вам</p>
 
                 <input type="text" class="putName" name="name" placeholder="Ваше имя" required>
 
@@ -125,7 +125,7 @@
                             </ul>
                         </li>
                         <li><a href="{{ url('prices') }}">Цены</a></li>
-                        <li><a href="{{ url('blog') }}">Калькулятор</a></li>
+                        <li><a href="{{ url('calculator') }}">Калькулятор</a></li>
                         <li><a href="{{ url('contact') }}">Контакты</a></li>
                     </ul>
                 </div>
@@ -199,6 +199,11 @@
 </script>
 <!-- sidebar -->
 <script src="/js/jquery.mCustomScrollbar.concat.min.js"></script>
+
+@hasSection('calculator_js')
+    @yield('calculator_js')
+@endif
+
 @hasSection('tag_js')
     @yield('tag_js')
 @endif

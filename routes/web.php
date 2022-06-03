@@ -45,8 +45,8 @@ Route::get('/product', function () {
 Route::get('/prices', function () {
     return view('pages.prices');
 });
-Route::get('/blog', function () {
-    return view('pages.blog');
+Route::get('/calculator', function () {
+    return view('pages.calculator');
 });
 Route::get('/contact', function () {
     return view('pages.contact');

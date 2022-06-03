@@ -21,6 +21,9 @@
     @hasSection('css')
           @yield('css')
     @endif
+    @hasSection('calculator_css')
+        @yield('calculator_css')
+    @endif
     <!-- Responsive-->
     <link rel="stylesheet" href="/css/responsive.css">
     <!-- fevicon -->
@@ -170,7 +173,7 @@
                                     <a class="nav-link" href="{{ url('prices') }}">Цены</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="{{ url('blog') }}">Калькулятор</a>
+                                    <a class="nav-link" href="{{ url('calculator') }}">Калькулятор</a>
                                 </li>
                                 <li class="nav-item">
                                     <a class="nav-link" href="{{ url('contact') }}">Контакты</a>

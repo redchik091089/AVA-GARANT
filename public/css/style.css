@@ -315,6 +315,7 @@ ul.btn li:last-child {
      float: right;
      padding-top: 15px !important;
      padding: 0;
+    left: 45px;
 }
 
 .navigation.navbar-dark .navbar-nav .nav-link {
@@ -335,10 +336,6 @@ ul.btn li:last-child {
 .navigation.navbar-dark .navbar-nav .nav-link.show,
 .navigation.navbar-dark .navbar-nav .show>.nav-link {
      color: #f4cb1e;
-}
-
-.navbar-expand-md .navbar-nav {
-     padding-right: 10px;
 }
 
 .padd_right {
@@ -529,8 +526,8 @@ div li:hover > .submenu {
 .text h1 {
     text-transform: uppercase;
     color: #090808;
-    font-size: 55px;
-    line-height: 75px;
+    font-size: 32px;
+    line-height: 60px;
     padding-bottom: 5px;
     font-weight: bold;
 }
@@ -594,6 +591,7 @@ div li:hover > .submenu {
 .titlepage {
      text-align: left;
      padding-bottom: 60px;
+     padding-top: 25px;
 }
 
 .titlepage h2 {

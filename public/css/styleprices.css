@@ -1243,8 +1243,7 @@ p.logo-desc {
 }
 
 .potolki-item>div {
-    margin-bottom: 70px;
-    min-height: 380px;
+    min-height: 320px;
 }
 
 .potolki-item>div:nth-child(3n+1) {
