@@ -18,23 +18,22 @@
         </div>
     </section>
     <!-- end banner -->
-    <!-- three_box -->
-    <div class="three_box">
+    <!-- three_box -->  <div class="three_box">
         <div class="container">
             <div class="row">
                 <div class="col-md-4">
                     <div class="box_text">
-                        <figure><a href="#"><div class="index_img">ПОТОЛКИ</div><img src="storage/images/natyaznie_potolki_index.jpg" width="350" height="245" alt="#"/></a></figure>
+                        <figure><a href="/potolki/1"><div class="zoom-bg"><p class="img-text-index">ПОТОЛКИ</p></div></a></figure>
                     </div>
                 </div>
                 <div class="col-md-4">
                     <div class="box_text">
-                        <figure><div class="index_img">ЖАЛЮЗИ</div><img src="storage/images/shtori_index.jpg" alt="#"/></figure>
+                        <figure><a href="/shtori/2"><div class="zoom-vg"><p class="img-text-index">ЖАЛЮЗИ</p></div></a></figure>
                     </div>
                 </div>
                 <div class="col-md-4">
                     <div class="box_text">
-                        <figure><div class="index_img">КОДИЦИОНЕРЫ</div><img src="storage/images/Tosot Lord Euro II T24H-SLEu2-I - T24H-SLEu2-O.jpg" alt="#"/></figure>
+                        <figure><a href="/condizionery/3"><div class="zoom-dg"><p class="img-text-index">КОДИЦИОНЕРЫ</p></div></a></figure>
                     </div>
                 </div>
             </div>
