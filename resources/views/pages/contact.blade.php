@@ -9,9 +9,6 @@
         <h2>Напишите нам</h2>
     </div>
     <div class="row">
-{{--        <div class="col-md-4">--}}
-{{--           --}}
-{{--        </div>--}}
         <div class="col-md-8">
             <form id="request" class="main_form">
                 <div class="row">

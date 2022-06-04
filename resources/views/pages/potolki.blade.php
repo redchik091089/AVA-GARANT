@@ -2,7 +2,6 @@
 
 
 @section('content')
-
     <div class="container">
         @foreach($potolki as $potolok)
         <div class="text">
@@ -53,11 +52,11 @@
         @endforeach
 
     </div>
-
+@if(method_exists($potolki, 'links'))
     <div class="container">
         {{ $potolki->links('pagination.default') }}
     </div>
-
+@endif
 
 
 @endsection
