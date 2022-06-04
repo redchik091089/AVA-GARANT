@@ -33,12 +33,244 @@
     <!-- Tweaks for older IEs-->
     <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css" media="screen">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <!--[if lt IE 9]>
     <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
     <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script><![endif]-->
 </head>
 <!-- body -->
 <body class="main-layout">
+<style>
+    .topnav {
+        overflow: hidden;
+        background-color: #333;
+        position: relative;
+        display: none;
+    }
+
+    /* Hide the links inside the navigation menu (except for logo/home) */
+    .topnav #myLinks {
+        display: none;
+    }
+
+    /* Style navigation menu links */
+    .topnav a {
+        color: white;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 35px;
+        display: block;
+    }
+
+    /* Style the hamburger menu */
+    .topnav a.icon {
+        background: black;
+        display: block;
+        position: absolute;
+        right: 0;
+        top: 0;
+        height: 69px;
+        width: 64px;
+        margin-top: 22px;
+        margin-right: 10px;
+    }
+
+    /* Add a grey background color on mouse-over */
+    .topnav a:hover {
+        background-color: #ddd;
+        color: black;
+    }
+
+    /* Style the active link (or home/logo) */
+    .active {
+        /*background-color: #04AA6D;*/
+        /*color: white;*/
+    }
+    @media screen and (max-width: 600px) {
+        .topnav {
+            display: block;
+        }
+        .header {
+            display: none;
+        }
+        .submenu {
+            min-width: 190px;
+        }
+        .navbar-nav .nav-link {
+            padding-right: 0px;
+            padding-left: 10px;
+        }
+    }
+
+    @media screen and (max-width: 1160px) {
+        .topnav {
+            display: block;
+        }
+        .header {
+            display: none;
+        }
+        .submenu {
+            min-width: 250px;
+        }
+        .navbar-nav .nav-link {
+            padding-right: 0px;
+            padding-left: 10px;
+        }
+
+        .topnav a {
+            color: white;
+            padding: 14px 16px;
+            text-decoration: none;
+            font-size: 50px;
+            display: block;
+        }
+
+        .topnav a.icon {
+            background: black;
+            display: block;
+            position: absolute;
+            right: 0;
+            top: 0;
+            height: 81px;
+            width: 81px;
+            margin-top: 22px;
+            margin-right: 10px;
+        }
+    }
+
+    @media screen and (max-width: 1600px) {
+        .none {
+            display: none;
+        }
+    }
+</style>
+
+<div class="topnav">
+    <div class="container">
+        <a href="{{ url('/') }}"><img src="/storage/images/logo.png" width="80" height="80" alt="#" /></a>
+    </div>
+    <!-- Navigation links (hidden by default) -->
+    <div id="myLinks">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+                <a class="nav-link" href="{{ url('/') }}">Главная</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Каталог</a>
+                <ul class="submenu">
+                    @foreach($categories as $category)
+                        <li><a href="{{ $category->url . '/' . $category->id}}">{{ $category->cat_name }}<span class="fa fa-angle-down"></span></a>
+                            <ul class="submenu">
+                                @foreach($subcat as $sub)
+                                    @if($sub->category_id == $category->id)
+                                        <li><a href="/subcategory/{{ $sub->id }}">{{ $sub->subcat_name }}@if(!empty($sub->rulon_shtor))<span class="fa fa-angle-down"></span>@endif</a>
+                                            @if(!empty($sub->rulon_shtor))
+                                                <ul class="submenu">
+                                                    <li><a href="/subcategory/{{ $sub->id }}/system_rulon">{{ $sub->rulon_shtor}}</a></li>
+                                                    <li><a href="/subcategory/{{ $sub->id }}/system_gor">{{ $sub->gor_galuzi}}</a></li>
+                                                </ul>
+                                            @endif
+                                        </li>
+                                    @endif
+                                @endforeach
+                            </ul>
+                        </li>
+                    @endforeach
+                </ul>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Регионы</a>
+                <ul class="submenu">
+                    <li><a href="#">Симферополь<span class="fa fa-angle-down"></span></a>
+                        <ul class="submenu">
+                            <li><a href="#">+7 (978) 080-77-56</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">Севастополь<span class="fa fa-angle-down"></span></a>
+                        <ul class="submenu">
+                            <li><a href="#">+7 (978) 740-62-03</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">Ялта<span class="fa fa-angle-down"></span></a>
+                        <ul class="submenu">
+                            <li><a href="#">+7 (978) 080-77-56</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">Алупка<span class="fa fa-angle-down"></span></a>
+                        <ul class="submenu">
+                            <li><a href="#">+7 (978) 740-62-03</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">Гурзуф<span class="fa fa-angle-down"></span></a>
+                        <ul class="submenu">
+                            <li><a href="#">+7 (978) 080-77-56</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">Евпатория<span class="fa fa-angle-down"></span></a>
+                        <ul class="submenu">
+                            <li><a href="#">+7 (978) 740-62-03</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">Алушта<span class="fa fa-angle-down"></span></a>
+                        <ul class="submenu">
+                            <li><a href="#">+7 (978) 080-77-56</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">Саки<span class="fa fa-angle-down"></span></a>
+                        <ul class="submenu">
+                            <li><a href="#">+7 (978) 740-62-03</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">Белогорск<span class="fa fa-angle-down"></span></a>
+                        <ul class="submenu">
+                            <li><a href="#">+7 (978) 080-77-56</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">Бахчисарай<span class="fa fa-angle-down"></span></a>
+                        <ul class="submenu">
+                            <li><a href="#">+7 (978) 740-62-03</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">Судак<span class="fa fa-angle-down"></span></a>
+                        <ul class="submenu">
+                            <li><a href="#">+7 (978) 080-77-56</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">Феодосия<span class="fa fa-angle-down"></span></a>
+                        <ul class="submenu">
+                            <li><a href="#">+7 (978) 080-77-03</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="{{ url('prices') }}">Цены</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="{{ url('calculator') }}">Калькулятор</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="{{ url('contact') }}">Контакты</a>
+            </li>
+        </ul>
+    </div>
+    <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+    </a>
+</div>
+<script>
+/* Toggle between showing and hiding the navigation menu links when the user clicks on the hamburger menu / bar icon */
+function myFunction() {
+var x = document.getElementById("myLinks");
+if (x.style.display === "block") {
+x.style.display = "none";
+} else {
+x.style.display = "block";
+}
+}
+</script>
+
 <!-- loader  -->
 <div class="loader_bg">
     <div class="loader"><img src="/storage/images/loading.gif" alt="#" /></div>
@@ -61,12 +293,12 @@
                 </div>
                 <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 col">
                     <div class="col-xl-9 col-lg-9 col-md-9 col-sm-9 col">
-                        <div>
+                        <div class="none">
                             <p style="color: #f4cb1e;font-size: 20px"> Тел. +7 (978) 080-77-56</p>
                         </div>
                     </div>
                     <div class="col-xl-9 col-lg-9 col-md-9 col-sm-9 col">
-                        <div>
+                        <div class="none">
                             <p style="color: #f4cb1e;font-size: 20px">Тел. +7 (978) 740-62-03</p>
                         </div>
                     </div>
