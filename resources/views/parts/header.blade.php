@@ -40,111 +40,8 @@
 </head>
 <!-- body -->
 <body class="main-layout">
-<style>
-    .topnav {
-        overflow: hidden;
-        background-color: #333;
-        position: relative;
-        display: none;
-    }
 
-    /* Hide the links inside the navigation menu (except for logo/home) */
-    .topnav #myLinks {
-        display: none;
-    }
-
-    /* Style navigation menu links */
-    .topnav a {
-        color: white;
-        padding: 14px 16px;
-        text-decoration: none;
-        font-size: 35px;
-        display: block;
-    }
-
-    /* Style the hamburger menu */
-    .topnav a.icon {
-        background: black;
-        display: block;
-        position: absolute;
-        right: 0;
-        top: 0;
-        height: 69px;
-        width: 64px;
-        margin-top: 22px;
-        margin-right: 10px;
-    }
-
-    /* Add a grey background color on mouse-over */
-    .topnav a:hover {
-        background-color: #ddd;
-        color: black;
-    }
-
-    /* Style the active link (or home/logo) */
-    .active {
-        /*background-color: #04AA6D;*/
-        /*color: white;*/
-    }
-    @media screen and (max-width: 600px) {
-        .topnav {
-            display: block;
-        }
-        .header {
-            display: none;
-        }
-        .submenu {
-            min-width: 190px;
-        }
-        .navbar-nav .nav-link {
-            padding-right: 0px;
-            padding-left: 10px;
-        }
-    }
-
-    @media screen and (max-width: 1160px) {
-        .topnav {
-            display: block;
-        }
-        .header {
-            display: none;
-        }
-        .submenu {
-            min-width: 250px;
-        }
-        .navbar-nav .nav-link {
-            padding-right: 0px;
-            padding-left: 10px;
-        }
-
-        .topnav a {
-            color: white;
-            padding: 14px 16px;
-            text-decoration: none;
-            font-size: 50px;
-            display: block;
-        }
-
-        .topnav a.icon {
-            background: black;
-            display: block;
-            position: absolute;
-            right: 0;
-            top: 0;
-            height: 81px;
-            width: 81px;
-            margin-top: 22px;
-            margin-right: 10px;
-        }
-    }
-
-    @media screen and (max-width: 1600px) {
-        .none {
-            display: none;
-        }
-    }
-</style>
-
+<!--header for mobile\tablet with menu gamburger-->
 <div class="topnav">
     <div class="container">
         <a href="{{ url('/') }}"><img src="/storage/images/logo.png" width="80" height="80" alt="#" /></a>
@@ -259,17 +156,6 @@
         <i class="fa fa-bars"></i>
     </a>
 </div>
-<script>
-/* Toggle between showing and hiding the navigation menu links when the user clicks on the hamburger menu / bar icon */
-function myFunction() {
-var x = document.getElementById("myLinks");
-if (x.style.display === "block") {
-x.style.display = "none";
-} else {
-x.style.display = "block";
-}
-}
-</script>
 
 <!-- loader  -->
 <div class="loader_bg">
