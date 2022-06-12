@@ -22,10 +22,10 @@
                     if (!$.isNumeric(val)) {
                         switch (name) {
                             case 'area':
-                                val = 1;
+                                val = '';
                                 break;
                             case 'corners':
-                                val = 4;
+                                val = '';
                                 break;
                             case 'lamp':
                                 val = '';
@@ -34,6 +34,9 @@
                                 val = '';
                                 break;
                             case 'chandelier-hook':
+                                val = '';
+                                break;
+                            case 'baget':
                                 val = '';
                                 break;
                             default:
@@ -48,23 +51,26 @@
 
                 switch (calcInputs.texture) {
                     case 'mat':
-                        total += calcInputs.area * 113;
+                        total += calcInputs.area * 480;
                         break;
-                    case 'glossy':
-                        total += calcInputs.area * 180;
-                        break;
-                    case 'satin':
-                        total += calcInputs.area * 180;
-                        break;
-                    case 'fabric':
-                        total += calcInputs.area * 900;
-                        break;
+                    // case 'glossy':
+                    //     total += calcInputs.area * 180;
+                    //     break;
+                    // case 'satin':
+                    //     total += calcInputs.area * 180;
+                    //     break;
+                    // case 'fabric':
+                    //     total += calcInputs.area * 900;
+                    //     break;
                     default:
                         break;
                 }
 
                 // каждый угол
-                total += calcInputs.corners * 40;
+                if (calcInputs.corners > 4) {
+                    corners = calcInputs.corners - 4;
+                    total += corners * 150;
+                }
 
                 // установка люстры
                 if (calcInputs['chandelier-hook'] >= 1) {
@@ -76,11 +82,15 @@
                 }
                 // обход трубы
                 if (calcInputs.tube >= 1) {
-                    total += calcInputs.tube * 300;
+                    total += calcInputs.tube * 350;
+                }
+                // багет
+                if (calcInputs.baget >= 1) {
+                    total += calcInputs.baget * 100;
                 }
 
-                install = calcInputs.area * 170;
-                total += install;
+                // install = calcInputs.area * 170;
+                // total += install;
 
                 total += ' руб.';
                 jQuery(this).find('span.total').html(total);

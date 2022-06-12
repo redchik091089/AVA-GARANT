@@ -9,6 +9,7 @@
 <div class="container">
     <div style="margin-bottom: 0cm; text-align: justify;">&nbsp;</div>
     <h1>Калькулятор стоимости натяжного потолка</h1>
+    <div class="title" style="color: red">* <p style="color: #0b0b0b; float: left"> Минимальная стоимость 3500 руб. </p></div>
 </div>
 
 <div class="container">
@@ -30,9 +31,9 @@
                     <td colspan="2">
                         <select name="texture">
                             <option value="mat">Матовый</option>
-                            <option value="glossy">Глянцевый</option>
-                            <option value="satin">Сатиновый</option>
-                            <option value="fabric">Тканевый</option>
+{{--                            <option value="glossy">Глянцевый</option>--}}
+{{--                            <option value="satin">Сатиновый</option>--}}
+{{--                            <option value="fabric">Тканевый</option>--}}
                         </select>
                     </td>
                 </tr>
@@ -56,12 +57,21 @@
                     <td><input name="tube" type="text" value=""></td>
                     <td>шт.</td>
                 </tr>
+                <tr>
+                    <td>Багет</td>
+                    <td><input name="baget" type="text" value=""></td>
+                    <td>м</td>
+                </tr>
                 </tbody></table>
 
             <div class="total">
                 Примерная стоимость: <span class="total">2990 руб.</span>
             </div>
         </div>
+    </div>
+    <div class="container" style="padding-bottom: 65px;">
+        <a class="popup-modal button" style="background-color: black;" href="#form">Заказать просчёт</a>
+        <a class="popup-modal button" style="background-color: black;" href="#form">Заказать замер</a>
     </div>
 </div>
 
