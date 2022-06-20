@@ -5,6 +5,7 @@ use App\Http\Controllers\IndexPageController;
 use App\Http\Controllers\PotolokController;
 use App\Http\Controllers\ProductController;
 use App\Http\Controllers\SubcategoryController;
+use App\Http\Controllers\ContactController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -21,6 +22,8 @@ Route::get('/', [IndexPageController::class, 'get']);
 
 Route::match(['get', 'post'],'/recall', [IndexPageController::class, 'recall']);
 
+Route::post('/send', [ContactController::class, 'sendToUs']);
+
 Route::get('/products', [ProductController::class, 'getAll']);
 
 Route::get('/potolki/{id}', [PotolokController::class, 'potolki']);
@@ -35,6 +38,8 @@ Route::get('/subcategory/{id}', [SubcategoryController::class, 'getSubProds']);
 
 Route::get('/subcategory/{id}/{type}', [SubcategoryController::class, 'getSubProdByType']);
 
+Route::get('/contact', [ContactController::class, 'get']);
+
 Route::get('/about', function () {
     return view('pages.about');
 });
@@ -47,9 +52,6 @@ Route::get('/prices', function () {
 });
 Route::get('/calculator', function () {
     return view('pages.calculator');
-});
-Route::get('/contact', function () {
-    return view('pages.contact');
 });
 
 

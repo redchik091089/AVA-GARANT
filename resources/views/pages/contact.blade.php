@@ -10,18 +10,19 @@
     </div>
     <div class="row">
         <div class="col-md-8">
-            <form id="request" class="main_form">
+            <form id="request" class="main_form" action="/send" method="post">
                 <div class="row">
-                    <div class="col-md-3 ">
-                        <input class="contactus" placeholder="Имя" type="type" name="Full Name">
+                    <div class="col-md-4 ">
+                        @csrf
+                        <input class="contactus" placeholder="Имя" type="type" name="name">
                     </div>
-                    <div class="col-md-3">
-                        <input class="contactus" placeholder="Ваш Email" type="type" name="Email">
+{{--                    <div class="col-md-3">--}}
+{{--                        <input class="contactus" placeholder="Ваш Email" type="type" name="email">--}}
+{{--                    </div>--}}
+                    <div class="col-md-4">
+                        <input class="contactus" placeholder="Ваш номер телефона" type="type" name="phone">
                     </div>
-                    <div class="col-md-3">
-                        <input class="contactus" placeholder="Ваш номер телефона" type="type" name="Phone Number">
-                    </div>
-                    <div class="col-xl-3 col-lg-3 col-md-3 col-sm-12">
+                    <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
                         <ul class="social_icon">
                             <li>
                                 <a class="nav-link" href="https://vk.com/ava.garant"><img src="storage/images/vk-circled.png" width="30" style="position: absolute;top: 10px;" alt="#" /></a>
@@ -29,7 +30,7 @@
                         </ul>
                     </div>
                     <div class="col-md-8">
-                        <textarea class="contactus1" placeholder="Сообщение" type="type" Message="Name"></textarea>
+                        <textarea class="contactus1" placeholder="Сообщение" type="type" name="message"></textarea>
                     </div>
                     <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12" style="padding-right: 20px;">
                         <button class="send_btn">Отправить</button>
