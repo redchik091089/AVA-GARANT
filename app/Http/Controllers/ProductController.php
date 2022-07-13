@@ -12,7 +12,7 @@ class ProductController extends Controller
 
     public function getAll()
     {
-        return view('pages.products', ['products' => Product::all(), 'title' => 'Каталог']);
+        return view('pages.products', ['products' => Product::paginate(15), 'title' => 'Каталог']);
     }
 
     public function shtori($id)
@@ -21,7 +21,7 @@ class ProductController extends Controller
         foreach ($subcategories as $item) {
             $this->id_collection[] = $item->id;
         }
-        $shtori = Product::whereIn('subcategory_id', $this->id_collection)->get();
+        $shtori = Product::whereIn('subcategory_id', $this->id_collection)->paginate(15);
 
         return view('pages.shtori', ['shtori' => $shtori, 'title' => 'Рулонные шторы']);
     }
@@ -32,7 +32,7 @@ class ProductController extends Controller
         foreach ($subcategories as $item) {
             $this->id_collection[] = $item->id;
         }
-        $condizionery = Product::whereIn('subcategory_id', $this->id_collection)->get();
+        $condizionery = Product::whereIn('subcategory_id', $this->id_collection)->paginate(15);
 
         return view('pages.condizionery', ['condizionery' => $condizionery, 'title' => 'Кондиционеры']);
     }
@@ -43,7 +43,7 @@ class ProductController extends Controller
         foreach ($subcategories as $item) {
             $this->id_collection[] = $item->id;
         }
-        $svetilniki = Product::whereIn('subcategory_id', $this->id_collection)->get();
+        $svetilniki = Product::whereIn('subcategory_id', $this->id_collection)->paginate(15);
 
         return view('pages.svetilniki', ['svetilniki' => $svetilniki, 'title' => 'Светильники']);
     }

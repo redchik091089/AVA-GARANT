@@ -27,6 +27,7 @@
                         </div>
                     @endforeach
                 </div>
+                {{ $products->links('pagination.default') }}
             </div>
 
         </div>
