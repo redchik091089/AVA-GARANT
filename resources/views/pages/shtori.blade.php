@@ -18,8 +18,8 @@
                     <div class="potolki-item">
                         @foreach($shtori as $shtora)
                             <div class="col-lg-4 col-md-4 col-sm-4 float">
-                                <a href="/single/{{ $shtora->id }}" rel="nofollow"><img src="{{ $shtora->image_1 }}" alt=""></a>
-                                <h6><a href="/single/{{ $shtora->id }}">{{ $shtora->prod_name }}</a></h6>
+                                <a href="/product/{{ $shtora->id }}" rel="nofollow"><img src="{{ $shtora->image_1 }}" alt=""></a>
+                                <h6><a href="/product/{{ $shtora->id }}">{{ $shtora->prod_name }}</a></h6>
                                 <p class="nrdr2"><span>{{ $shtora->price }}</span> </p>
                                 {{--                        <a href="/primery/dvuxurovnevye-potolki-s-podsvetkoj/" rel="nofollow" class="order nrdr">Заказать</a>--}}
                             </div>

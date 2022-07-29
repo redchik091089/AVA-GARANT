@@ -15,6 +15,11 @@ class ProductController extends Controller
         return view('pages.products', ['products' => Product::paginate(15), 'title' => 'Каталог']);
     }
 
+    public function getOne($id)
+        {
+            return view('pages.single_product', ['product' => Product::find($id), 'title' => 'Продукт']);
+        }
+
     public function shtori($id)
     {
         $subcategories = Subcategory::where('category_id', $id)->get();

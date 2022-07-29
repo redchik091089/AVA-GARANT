@@ -40,13 +40,12 @@ Route::get('/subcategory/{id}/{type}', [SubcategoryController::class, 'getSubPro
 
 Route::get('/contact', [ContactController::class, 'get']);
 
+Route::get('/product/{id}',  [ProductController::class, 'getOne']);
+
 Route::get('/about', function () {
     return view('pages.about');
 });
 
-Route::get('/product', function () {
-    return view('pages.single_product');
-});
 Route::get('/prices', function () {
     return view('pages.prices');
 });

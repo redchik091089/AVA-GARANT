@@ -13,6 +13,21 @@ class SubcategoryController extends Controller
         $cat_id = Subcategory::find($id)->category_id;
         $sub_cat = Subcategory::find($id);
 
+        if($id == 22) {
+            $sub_cat = Subcategory::find(21);
+            return view('pages.products', ['products' => $sub_cat->products()->paginate(12), 'title' => 'Полупромышленные' ]);
+        }
+
+        if($id == 20) {
+            $sub_cat = Subcategory::find(19);
+            return view('pages.products', ['products' => $sub_cat->products()->paginate(12), 'title' => 'Мобильные' ]);
+        }
+
+        if($id == 23) {
+            $sub_cat = Subcategory::find(19);
+            return view('pages.products', ['products' => $sub_cat->products()->paginate(12), 'title' => 'Потолочные' ]);
+        }
+
         if($cat_id == 1)
             return view('pages.potolki', ['potolki' => $sub_cat->products()->paginate(12)]);
 

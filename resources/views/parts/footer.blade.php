@@ -47,11 +47,11 @@
                 <div class="col-md-3 border_right">
                     <h3>Полезные ссылки</h3>
                     <ul class="link">
-                        <li><a href="#">humour, or </a></li>
-                        <li><a href="#">randomised words </a> </li>
+                        <li><a href="https://vk.com/ava.garant">ava-garant -> Вконтакте</a></li>
+                        <!-- <li><a href="#">randomised words </a> </li>
                         <li><a href="#">which don't look </a></li>
                         <li><a href="#">even slightly  </a> </li>
-                        <li><a href="#">believable. If   </a></li>
+                        <li><a href="#">believable. If   </a></li> -->
                     </ul>
                 </div>
                 <div class="col-md-3 border_right">
