@@ -9,7 +9,7 @@
             <div class="row">
                 <div class="col-md-12">
                     <div class="titlepage">
-                        <h2>People Says About Farm</h2>
+                        <h2>О нас</h2>
 
                     </div>
                 </div>
@@ -30,8 +30,9 @@
                                             <div class="col-md-12">
                                                 <div class="test_box">
                                                     <i><img src="storage/images/tes1.png" alt="#"/></i>
-                                                    <h4>jhone Du</h4>
-                                                    <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters,It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters,It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters,</p>
+                                                    <h4>Валерия М.</h4>
+                                                    <p>Спасибо профессионалам!
+Хочу сказать, побольше бы таких спецов! Рассчитали потолки на кухню, ванну и в коридор. Все подробно объяснили по материалу, ценам, дали выбрать цвет потолка да еще и светильники подобрали под  мои комнаты! Монтажники приехали во время. Все установили быстро и качественно. Спасибо.</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -45,8 +46,8 @@
                                             <div class="col-md-12">
                                                 <div class="test_box">
                                                     <i><img src="storage/images/tes1.png" alt="#"/></i>
-                                                    <h4>jhone Du</h4>
-                                                    <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters,It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters,It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters,</p>
+                                                    <h4>Константин Ц.</h4>
+                                                    <p>Заказывали у этой фирмы натяжной потолок в зал и спальню своей новенькой квартиры. Все сделали аккуратно и хорошо. Потолки очень красивые и качественные, запаха совсем не было ни на монтаже ни после (делали Bauf), нишиевые конструкции выполнены идеально,  сделали быстро и достаточно чисто. Результатом, я доволен на все 100 процентов. </p>
                                                 </div>
                                             </div>
                                         </div>
@@ -60,8 +61,8 @@
                                             <div class="col-md-12">
                                                 <div class="test_box">
                                                     <i><img src="storage/images/tes1.png" alt="#"/></i>
-                                                    <h4>jhone Du</h4>
-                                                    <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters,It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters,It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters,</p>
+                                                    <h4>Максим М.</h4>
+                                                    <p>Нам надо было срочно сделать косметический ремонт в спальне - переклеить обои и поставить натяжные потолки. Многие фирмы при обращении отказывали по срокам, графики рабочих уже расписаны, а здесь вошли в положение. За что большое спасибо! Сделали все запланированное за три дня и по адекватной... </p>
                                                 </div>
                                             </div>
                                         </div>

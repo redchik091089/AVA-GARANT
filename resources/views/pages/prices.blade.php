@@ -63,7 +63,7 @@
                             </div>
 
                             <div class="pricer_link">
-                                <a href="#" class="online focus" rel="form-modal">Вызвать замерщика</a>
+                                <a href="#form" class="popup-modal button">Вызвать замерщика</a>
                             </div>
 
                         </div>
@@ -414,14 +414,7 @@
                                     <h4>Pongs (Германия)</h4>
                                     <p>от <span>400</span> руб.</p>
                                 </div>
-                                <!--
-                                <div class="brand-box">
-                                    <p class="bottom-remark">До 5.5 м</p>
-                                    <img src="/image/cache/data/fotopechat-149x122.jpg" alt="Фотопечать на ПВХ потолках">
-                                    <h4>Фотопечать на ПВХ потолках</h4>
-                                    <p>от <span>1500</span> руб.</p>
-                                </div>-->
-
+                               
                                 <div class="brand-box">
                                     <p class="bottom-remark">до 4 м</p>
                                     <img src="storage/images/msd_1.jpg" alt="MSD Cold Stretch (без нагрева)">

@@ -52,5 +52,8 @@ Route::get('/prices', function () {
 Route::get('/calculator', function () {
     return view('pages.calculator');
 });
+Route::get('/types', function () {
+    return view('pages.types_shtori');
+});
 
 
