@@ -1,9 +1,9 @@
 UPDATE products 
 SET 
-    image_1 = '/storage/images/condizionery/split/6fd2f4b9a8c23d061c74d7f0c1f7e8bd_300x300-150x150.jpg'
+    image_1 = '/storage/images/svetilniki/trekovie/681.970.png'
     
 WHERE
-    prod_name = 'Fujitsu Classic ASY7USBCW';
+    subcategory_id = 27;
 
 
 
