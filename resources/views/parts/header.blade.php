@@ -1,6 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="icon" type="image/png" sizes="32x32" href="/storage/images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/storage/images/favicon-16x16.png">
+    <link rel="shortcut icon" href="/storage/images/favicon.png" type="image/x-icon">
+    <link rel="shortcut icon" href="/storage/images/favicon.ico" type="image/x-icon">
+
     <!-- basic -->
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -34,10 +39,6 @@
     <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css" media="screen">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="icon" type="image/png" sizes="32x32" href="/storage/images/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/storage/images/favicon-16x16.png">
-    <link rel="shortcut icon" href="/storage/images/favicon.png" type="image/x-icon">
-    <link rel="shortcut icon" href="/storage/images/favicon.ico">
     <!--[if lt IE 9]>
     <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
     <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script><![endif]-->
