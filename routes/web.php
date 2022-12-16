@@ -34,6 +34,8 @@ Route::get('/condizionery/{id}', [ProductController::class, 'condizionery']);
 
 Route::get('/svetilniki/{id}', [ProductController::class, 'svetilniki']);
 
+Route::get('/uslugi/{id}', [ProductController::class, 'uslugi']);
+
 Route::get('/subcategory/{id}', [SubcategoryController::class, 'getSubProds']);
 
 Route::get('/subcategory/{id}/{type}', [SubcategoryController::class, 'getSubProdByType']);

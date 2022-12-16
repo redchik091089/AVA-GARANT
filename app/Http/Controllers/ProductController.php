@@ -52,4 +52,15 @@ class ProductController extends Controller
 
         return view('pages.svetilniki', ['svetilniki' => $svetilniki, 'title' => 'Светильники']);
     }
+
+    public function uslugi($id)
+    {
+        $subcategories = Subcategory::where('category_id', $id)->get();
+        foreach ($subcategories as $item) {
+            $this->id_collection[] = $item->id;
+        }
+        $uslugi = Product::whereIn('subcategory_id', $this->id_collection)->paginate(15);
+
+        return view('pages.uslugi', ['uslugi' => $uslugi, 'title' => 'Услуги по строительству']);
+    }
 }

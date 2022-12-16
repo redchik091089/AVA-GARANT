@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\Models\Subcategory;
+use App\Models\Product;
 use phpDocumentor\Reflection\Types\True_;
 
 class SubcategoryController extends Controller
@@ -30,6 +31,19 @@ class SubcategoryController extends Controller
 
         if($cat_id == 1)
             return view('pages.potolki', ['potolki' => $sub_cat->products()->paginate(12)]);
+
+
+        if($id == 32)
+            return view('pages.single_product', ['product' => Product::find(286)]);
+
+        if($id == 33)
+            return view('pages.single_product', ['product' => Product::find(287)]);
+
+        if($id == 34)
+            return view('pages.single_product', ['product' => Product::find(288)]);
+
+        if($id == 35)
+            return view('pages.single_product', ['product' => Product::find(289)]);
 
             return view('pages.products', ['products' => $sub_cat->products()->paginate(12), 'title' => $sub_cat-> subcat_name ]);
 
